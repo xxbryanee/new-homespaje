@@ -3,11 +3,15 @@ import imageDesktop from '../assets/images/image-web-3-desktop.jpg';
 
 export const MainArticle = () => {
   return (
-    <section>
-      <picture>
+    <section className='mb-12'>
+      <picture className=''>
         <source media="(max-width: 640px)" srcSet={imageMobile}/>
-        <source media="(max-width: 641px)" srcSet={imageDesktop}/>
-        <img src={imageMobile} alt="Articulo principal imagen" />
+        <source media="(min-width: 641px)" srcSet={imageDesktop}/>
+        <img 
+          src={imageMobile} 
+          alt="Articulo principal imagen"
+          className='w-full h-[200px] object-cover'
+         />
       </picture>
 
       <div className='sm:flex'>
@@ -24,8 +28,6 @@ export const MainArticle = () => {
             <button className='bg-SoftRed w-[185px] h-[48px] uppercase text-OffWhite hover:bg-VeryDarkBlue'>Lee aqui</button>
         </div>
       </div>
-      
-      
     </section>
   )
 }
