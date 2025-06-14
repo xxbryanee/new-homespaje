@@ -5,7 +5,7 @@ import { NewArticle } from "./NewArticle";
 export const NewContainer = () => {
   return (
     <aside className="bg-VeryDarkBlue text-OffWhite">
-        <h1 className = "text-SoftOrange text-4xl font-bold px-[20px]">New</h1>
+        <h1 className = "text-SoftOrange text-4xl font-bold px-[20px]">Noticias</h1>
         <NewArticle 
             title="Hydrogen VS Electric Cars"
             description="Will hydrogen-fueled cars ever catch up to EVs?"

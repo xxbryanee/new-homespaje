@@ -2,7 +2,7 @@
 
 export const Article = ({title, subtitle, description, image}) => {
   return (
-    <article className='flex h-[162px]'>
+    <article className='flex h-[162px] '>
        <div className='w-[100px] flex-none'>
         <img src={image} alt="" />
        </div>

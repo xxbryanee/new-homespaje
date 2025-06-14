@@ -6,7 +6,7 @@ import { Article } from "./Article"
 export const ArticlesContainer = () => {
   return (
     
-    <section className="mt-6 sm:flex-200 ">
+    <section className="mt-6 md:flex md:flex-warp ">
         <Article
             title="01"
             subtitle="Nueva Norma de REINFO"

@@ -11,7 +11,7 @@ function App() {
       <Header />
 
 
-      <div className='sm:flex sm:gap-8'>
+      <div className='lg:flex lg:gap-8'>
          <MainArticle />
          <NewContainer/>
       </div>
